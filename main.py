@@ -4,7 +4,7 @@ if len(email)>=20:
       if email[0].isalpha():
           if ("@"in email) and (email.count("@")==1):
               if (email[-4]==".") ^ (email[-3]=="."):
-                  print("done")
+                  print("valid")
                   for i in email:   
                       if i==i.isspace():
                           k=1
